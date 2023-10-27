@@ -1,0 +1,240 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*---------Navigation-------*/
+#nav-bar
+{
+    position: top;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 60px;
+    padding-left: 30px;
+}
+.navbar
+{
+    background: transparent;
+}
+.navbar-nav li
+{
+    padding: 0 30px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #5F6062!important;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #27251F!important;
+    font-weight: 600;
+    font-size: 24px;
+}
+/*--Title--*/
+.content
+{
+    width: 100%;
+    position: relative;
+    top: 1%;
+    text-align: center;
+    color: #27251F;
+}
+.content h1
+{
+    font-size: 8vw;
+    margin-top: 80px;
+}
+.content p
+{
+    font-size: 3vw;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 40px;
+}
+/*--Four Pics--*/
+.fourpics
+{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 10%;
+
+}
+.fourpics img
+{
+    height: auto;
+    max-width: 20%;
+}
+/*--What is Vanguard--*/
+.c1
+{
+    outline: dashed 0px black;
+}
+.vga
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 20%;
+}
+.c1 img
+{
+    height: auto;
+    float: left;
+    max-width: 40%;
+    margin: 0px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.vga h2
+{
+    text-align: center;
+    font-size: 50px;
+    padding: 0px;
+}
+.vga p
+{
+    text-align: center;
+    font-size: 30px;
+}
+.introtext
+{
+    Padding: 5%;
+}
+/*--What is XPO--*/
+.wrapper
+{
+    margin: 20px auto;
+    width: 70%;
+}
+.xpo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    width: 100%;
+}
+#xpopic
+{
+    max-width: 40%;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+}
+.xpo h2
+{
+    font-size: 50px;
+}
+.xpo p
+{
+    font-size: 30px;
+}
+.xpotext
+{
+    position: relative;
+    padding: 5%;
+}
+/***What is BADLab***/
+.BADL
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    width: 100%;
+}    
+.BADL h2
+{
+    text-align: center;
+    font-size: 50px;
+    padding: 0px;
+}
+.BADL p
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.footer-basic {
+    padding:40px 0;
+    background-color: #27251F;
+    color:#5F6062;
+    position: relative;
+    top: 50%;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:30px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:20%;
+    border:1px solid #5F6062;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#5F6062;
+    margin-bottom:0;
+  }
+  
