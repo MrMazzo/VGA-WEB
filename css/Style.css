@@ -237,4 +237,9 @@
     color:#5F6062;
     margin-bottom:0;
   }
-  
+  /*--Columns Change of Background of inside and border of the box--*/
+   .custom-column {
+            background-color: #bebebe;
+            padding: 20px;
+            border: 1px solid #000;
+}
