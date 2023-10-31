@@ -229,7 +229,7 @@
   .footer-basic .social > a:hover {
     opacity:0.9;
   }
-  
+
   .footer-basic .copyright {
     margin-top:15px;
     text-align:center;
@@ -242,4 +242,20 @@
             background-color: #bebebe;
             padding: 20px;
             border: 1px solid #000;
-}
+  }
+
+ /*--css for the pics in the boxes of the columns--*/
+ 
+ .Showcasepics
+  {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 10%;
+
+  }
+ .Showcasepics img
+  {
+    height: auto;
+    max-width: 80%;
+  }
