@@ -78,6 +78,11 @@
     max-width: 20%;
 }
 /*--What is Vanguard--*/
+
+.container
+{
+    background-color: #5F6062;
+}
 .c1
 {
     outline: dashed 0px black;
@@ -89,7 +94,8 @@
     justify-content: center;
     width: 100%;
     position: relative;
-    top: 20%;
+    top: 30%;
+    margin-top: 100px;
 }
 .c1 img
 {
@@ -108,7 +114,7 @@
 }
 .vga p
 {
-    text-align: center;
+    text-align: justify;
     font-size: 30px;
 }
 .introtext
@@ -162,19 +168,28 @@
     top: 40%;
     width: 100%;
 }    
-.BADL h2
+.c3 h2
 {
     text-align: center;
     font-size: 50px;
     padding: 0px;
 }
-.BADL p
+.c3 p
 {
     text-align: center;
     font-size: 30px;
 }
+.c3 img
+{
+    height: auto;
+    float: left;
+    max-width: 40%;
+    margin: 0px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
 
-
+/**Footer**/
 
 .footer-basic {
     padding:40px 0;
@@ -215,7 +230,7 @@
   .footer-basic .social > a {
     font-size:24px;
     width:40px;
-    height:30px;
+    height:40px;
     line-height:40px;
     display:inline-block;
     text-align:center;
