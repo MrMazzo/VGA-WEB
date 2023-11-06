@@ -174,7 +174,7 @@
     font-size: 30px;
 }
 
-/**Footer**/
+
 
 .footer-basic {
     padding:40px 0;
@@ -237,17 +237,4 @@
     color:#5F6062;
     margin-bottom:0;
   }
-/***Project Columns***/
-#pcols
-{
-    position: relative;
-    top: 10%;
-    background-color: aliceblue;
-}
-#pcols img
-{
-    max-width: 80%;
-    height: auto;
-    position: relative;
-    float: top;
-}
+  
