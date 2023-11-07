@@ -47,7 +47,7 @@
 {
     width: 100%;
     position: relative;
-    top: 1%;
+    margin-top: 150px;
     text-align: center;
     color: #27251F;
 }
@@ -55,6 +55,10 @@
 {
     font-size: 8vw;
     margin-top: 80px;
+}
+.content h2
+{
+    font-size: 100px;
 }
 .content p
 {
@@ -70,123 +74,13 @@
     width: 100%;
     position: relative;
     top: 10%;
+    margin-top: 200px;
 
 }
 .fourpics img
 {
     height: auto;
     max-width: 20%;
-}
-/*--What is Vanguard.--*/
-
-.container
-{
-    background-color: #5F6062;
-}
-.c1
-{
-    outline: dashed 0px black;
-}
-.vga
-{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    position: relative;
-    top: 30%;
-    margin-top: 100px;
-}
-.c1 img
-{
-    height: auto;
-    float: left;
-    max-width: 40%;
-    margin: 0px;
-    border-radius: 10px;
-    margin-right: 20px;
-}
-.vga h2
-{
-    text-align: center;
-    font-size: 50px;
-    padding: 0px;
-}
-.vga p
-{
-    text-align: justify;
-    font-size: 30px;
-}
-.introtext
-{
-    Padding: 5%;
-}
-/*--What is XPO--*/
-.wrapper
-{
-    margin: 20px auto;
-    width: 70%;
-}
-.xpo
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    top: 30%;
-    width: 100%;
-}
-#xpopic
-{
-    max-width: 40%;
-    height: auto;
-    float: right;
-    margin-left: 20px;
-}
-.xpo h2
-{
-    font-size: 50px;
-}
-.xpo p
-{
-    font-size: 30px;
-}
-.xpotext
-{
-    position: relative;
-    padding: 5%;
-}
-/***What is BADLab***/
-.BADL
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    top: 40%;
-    width: 100%;
-}    
-.c3 h2
-{
-    text-align: center;
-    font-size: 50px;
-    padding: 0px;
-}
-.c3 p
-{
-    text-align: center;
-    font-size: 30px;
-}
-.c3 img
-{
-    height: auto;
-    float: left;
-    max-width: 40%;
-    margin: 0px;
-    border-radius: 10px;
-    margin-right: 20px;
 }
 
 /**Footer**/
@@ -197,6 +91,7 @@
     color:#5F6062;
     position: relative;
     top: 50%;
+    margin-top: 200px;
   }
   
   .footer-basic ul {
@@ -273,4 +168,27 @@
   {
     height: auto;
     max-width: 80%;
+  }
+
+  /**Index Program Info**/
+.programinfo
+{
+    margin-top: 150px;
+}
+  #programpic
+  {
+    width: 80%;
+    height: auto;
+  }
+  .programinfo h2
+  {
+    font-size: 70px;
+  }
+  .programinfo p
+  {
+    font-size: 25px;
+  }
+  .hr
+  {
+    margin: 5vw;
   }
