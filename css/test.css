@@ -1,0 +1,9 @@
+ /* Style your boxes here */
+        .left-box {
+            width: 50%;
+            float: left;
+        }
+        .right-box {
+            width: 50%;
+            float: left;
+        }
