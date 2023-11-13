@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanguard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/Style.css">
+    <script src="js/initialize Open live server.js"></script>
+    
+    <!-- Style your boxes here -->
+    <style>
+        .container {
+            display: flex;
+        }
+        .left-box {
+            flex: 1;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .right-box {
+            flex: 1;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .poetry-image {
+            max-width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body style="background-color: #bebebe;">
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://www.baschools.org/"><img src="img/Blogo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="BadLab.html">BadLab</a></li>
+                        <li class="nav-item"><a class="nav-link" href="XPO.html">XPO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                    </ul>
+                    <a class="navbar-brand" href="#"><img src="img/Vlogo.png"></a>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <div class="content">
+        <h1>Poetry</h1>
+        <p>Creativity and Passion entwined to provoke feeling and action.</p>
+    </div>
+
+    <div class="container">
+        <div class="left-box">
+            <p onclick="showImage('image1.jpg')">Poetry 1</p>
+            <p onclick="showImage('image2.jpg')">Poetry 2</p>
+            <p onclick="showImage('image3.jpg')">Poetry 3</p>
+            <!-- Add more poetry elements as needed -->
+        </div>
+        <div class="right-box" id="right-box">
+            <!-- Initially empty; images will be loaded dynamically -->
+        </div>
+    </div>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="https://www.instagram.com/bavanguard/?hl=en"><i class="icon ion-social-instagram"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="BadLab.html">BadLab</a></li>
+                <li class="list-inline-item"><a href="XPO.html">XPO</a></li>
+                <li class="list-inline-item"><a href="Projects.html">Projects</a></li>
+                <li class="list-inline-item"><a href="about-us.html">About Us</a></li>
+            </ul>
+            <p class="copyright">Vanguard Academy</p>
+        </footer>
+    </div>
+
+    <script>
+        function showImage(imageFileName) {
+            const rightBox = document.getElementById('right-box');
+            rightBox.innerHTML = `<img class="poetry-image" src="${imageFileName}" alt="Poetry Image">`;
+        }
+    </script>
+</body>
+</html>
