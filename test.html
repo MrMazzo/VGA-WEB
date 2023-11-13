@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Poetry</title>
+    <style>
+        /* Style your boxes here */
+        .left-box {
+            width: 50%;
+            float: left;
+        }
+        .right-box {
+            width: 50%;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-box">
+        <p onclick="showPoetry('poetry1')">Poetry 1</p>
+        <p onclick="showPoetry('poetry2')">Poetry 2</p>
+        <p onclick="showPoetry('poetry3')">Poetry 3</p>
+        <!-- Add more poetry elements as needed -->
+    </div>
+    <div class="right-box" id="right-box">
+        <!-- Initially empty; content will be updated dynamically -->
+    </div>
+    <script src="js/functionText.js"></script>
+</html>
