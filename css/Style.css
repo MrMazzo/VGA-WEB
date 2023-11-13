@@ -47,14 +47,14 @@
 {
     width: 100%;
     position: relative;
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
     color: #27251F;
 }
 .content h1
 {
     font-size: 8vw;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 .content h2
 {
@@ -74,7 +74,7 @@
     width: 100%;
     position: relative;
     top: 10%;
-    margin-top: 200px;
+    margin-top: 50px;
 
 }
 .fourpics img
@@ -192,3 +192,12 @@
   {
     margin: 5vw;
   }
+
+  /**ProjectPoetry**/
+.poemcontainer
+{
+  margin-top: 100px;
+  border: 1px black;
+  border: 12px solid #000000;
+border-radius: 10px;
+}
