@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Vanguard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+ <link rel="stylesheet" href="css/Style.css">
+ <script src="js/initialize Open live server.js"></script>
+ <style>
+   /* Add some style to the image container */
+   .image-container {
+     position: relative;
+     width: 50%;
+     margin: 0 auto;
+   }
+
+   /* Style the image */
+   .image-container img {
+     width: 100%;
+     height: auto;
+   }
+
+   /* Style the text overlay */
+   .image-container .overlay {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background-color: rgba(0, 0, 0, 0.5);
+     color: white;
+     font-size: 20px;
+     padding: 10px;
+     text-align: center;
+   }
+
+   /* Style the description text */
+   .image-container .description {
+     position: absolute;
+     bottom: 50px;
+     left: 0;
+     right: 0;
+     color: white;
+     font-size: 30px;
+     padding: 10px;
+     text-align: center;
+   }
+
+   /* Add a fading effect to the images */
+   .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 30s;
+  animation-name: fade;
+  animation-duration: 30s;
+  display: none;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes fade {
+  0% {opacity: 0} 
+  16.67% {opacity: 1}
+  33.33% {opacity: 1}
+  50% {opacity: 0}
+  66.67% {opacity: 0}
+  83.33% {opacity: 1}
+  100% {opacity: 1}
+}
+
+@keyframes fade {
+  0% {opacity: 0} 
+  16.67% {opacity: 1}
+  33.33% {opacity: 1}
+  50% {opacity: 0}
+  66.67% {opacity: 0}
+  83.33% {opacity: 1}
+  100% {opacity: 1}
+}
+
+
+ </style>
+</head>
+<body style="background-color: #bebebe;">
+  
+    <!-- Navigation -->
+        <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://www.baschools.org/"><img src="img/Blogo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <li class="nav-item">
+                    <a class="nav-link" href="BadLab.html">BadLab</a>
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="XPO.html">XPO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">About Us</a>
+                  </li>
+                </ul>
+                <a class="navbar-brand" href="#"><img src="img/Vlogo.png"></a>
+              </div>
+            </div>
+          </nav>
+    </section>
+    
+    <!-- Content Section -->
+    <div class="content">
+        <h1>XPO</h1>
+        <p>A super tiny description of XPO</p>
+    </div>
+
+    <!-- Image Changer Section -->
+    <div class="image-container">
+      <!-- Add your images here with the class "fade" -->
+      <img class="fade" src="img/chefSandMazzo.JPG" alt="Image 1">
+      <img class="fade" src="img/kidsmorningmovie.JPG" alt="Image 2">
+      <img class="fade" src="img/kidsworking.JPG" alt="Image 3">
+      <img class="fade" src="img/chefSandMazzo.JPG" alt="Image 4">
+      <!-- Add your text overlay here with the class "overlay" -->
+      <div class="overlay">XPO Class 24-22</div>
+      <!-- Add your description text here with the class "description" -->
+      <div class="description">Description of XPO</div>
+    </div>
+
+    <!-- Footer -->
+      <div class="footer-basic">
+    <footer>
+        <div class="social">
+          <a href="https://www.instagram.com/bavanguard/?hl=en"><i class="icon ion-social-instagram"></i></a>
+        </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="BadLab.html">BadLab</a></li>
+            <li class="list-inline-item"><a href="XPO.html">XPO</a></li>
+            <li class="list-inline-item"><a href="Projects.html">Projects</a></li>
+            <li class="list-inline-item"><a href="about-us.html">About Us</a></li>
+        </ul>
+        <p class="copyright">Vanguard Academy</p>
+    </footer>
+    <script>
+      // Get all the images with the class "fade"
+      var images = document.getElementsByClassName("fade");
+      // Set the index of the current image to 0
+      var index = 0;
+      // Show the first image
+      images[index].style.display = "block";
+      // Set a timer to change the image every 5 seconds
+      setInterval(changeImage, 5000);
+
+      // Define a function to change the image
+      function changeImage() {
+        // Hide the current image
+        images[index].style.display = "none";
+        // Increment the index by 1
+        index++;
+        // If the index is equal to the number of images, reset it to 0
+        if (index == images.length) {
+          index = 0;
+        }
+        // Show the next image
+        images[index].style.display = "block";
+      }
+    </script>
+</body>
+</html>

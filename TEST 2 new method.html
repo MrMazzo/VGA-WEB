@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Changer with Fading Effect</title>
+    <style>
+        /* Style the image container */
+        .container {
+            position: relative;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Style the images */
+        .container img {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            opacity: 0;
+            transition: opacity 3s;
+        }
+
+        /* Show the first image by default */
+        .container img:first-child {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Add your images here -->
+        <img src="img/chefSandMazzo.JPG" alt="Image 1">
+        <img src="img/kidsmorningmovie.JPG" alt="Image 2">
+        <img src="img/kidsworking.JPG" alt="Image 3">
+        <img src="img/chefSandMazzo.JPG" alt="Image 4">
+        <img src="img/kidsmorningmovie.JPG" alt="Image 5">
+        <img src="img/chefSandMazzo.JPG" alt="Image 6">
+    </div>
+    <script>
+        // Get all the images
+        var images = document.querySelectorAll(".container img");
+        // Set the index of the current image to 0
+        var index = 0;
+        // Set a timer to change the image every 3 seconds
+        setInterval(changeImage, 3000);
+
+        // Define a function to change the image
+        function changeImage() {
+            // Hide the current image
+            images[index].style.opacity = 0;
+            // Increment the index by 1
+            index++;
+            // If the index is equal to the number of images, reset it to 0
+            if (index == images.length) {
+                index = 0;
+            }
+            // Show the next image
+            images[index].style.opacity = 1;
+        }
+    </script>
+</body>
+</html>
