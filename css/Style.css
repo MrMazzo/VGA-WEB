@@ -282,13 +282,17 @@ border-radius: 0px;
 
 .programinstructors
 {
-  padding-top: 50px;;
+  padding-top: 50px;
+  text-align: center;
 }
 
 #instructorpic
 {
   width: 60%;
   height: auto;
+  Display: block;
+  Margin: auto;
+  border-radius: 40%;
 }
 
 .instructorcontainer {
