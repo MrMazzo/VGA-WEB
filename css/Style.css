@@ -83,6 +83,22 @@
     max-width: 20%;
 }
 
+/*--Four Pics--*/
+.programgif
+{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 10%;
+    margin-top: 50px;
+
+}
+.programgif img
+{
+    height: auto;
+    max-width: 30%;
+}
+
 /**Footer**/
 
 .footer-basic {
@@ -193,6 +209,32 @@
     margin: 5vw;
   }
 
+/**ProgramPages**/
+
+.programpageinfo
+{
+    margin-top: 50px;
+}
+  #programpic
+  {
+    width: 80%;
+    height: auto;
+  }
+  .programpageinfo h2
+  {
+    font-size: 70px;
+  }
+  .programpageinfo p
+  {
+    font-size: 25px;
+  }
+  .hr
+  {
+    margin: 5vw;
+  }
+
+
+
   /**ProjectPoetry**/
 .poemcontainer
 {
@@ -203,4 +245,58 @@ border-radius: 0px;
 }
 #poembutton{
   padding-top: 150px;
+}
+/**ProjectBlizzard**/
+
+
+#blizzcontain
+{
+  padding-top: 50px;
+}
+.blizzside img
+{
+  height: auto;
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+.blizzcenter img
+{
+  height: auto;
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+/**ProgramPages**/
+
+
+#sroll-image img
+{
+  position: absolute;
+  left: 400px;
+  height: auto;
+  width: 1000px;
+}
+
+/**ProgramInstructors**/
+
+
+
+.programinstructors
+{
+  padding-top: 50px;
+  text-align: center;
+}
+
+#instructorpic
+{
+  width: 60%;
+  height: auto;
+  Display: block;
+  Margin: auto;
+  border-radius: 40%;
+}
+
+.instructorcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
