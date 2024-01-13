@@ -1,5 +1,5 @@
 # Vanguard-Website-Main
-
+A place where innovation is made and students get to create amazing projects this websites is one of those amazing and magnificent projects it took more than a year to create this website my name is samuhel and I created this extensive readme.md in order to help or guide you in your way to learn how to code and how to make changes to the website I wish you good luck in your journey 01/13/2024 :)
 ## Description
 
 Welcome to the Vanguard repository just like we always Vanguard is a place where innovation is made. This website was created through the collaborative efforts of both teachers and students. We extend our heartfelt thanks to the administration and the main developers, Evan Mazzo and Samuhel Velez.
@@ -8,7 +8,7 @@ Welcome to the Vanguard repository just like we always Vanguard is a place where
 
 This section provides a step-by-step guide for someone who has never coded in HTML, CSS, or JavaScript but knows a little about coding and introduces anybody is working in the Vanguard website any changes that are made in the README.md file have to be notified to Mr.Mazzo .
 
-## Learning HTML, CSS, and JavaScript
+### Learning HTML, CSS, and JavaScript
 
 This section provides a step-by-step guide for someone who has never coded in HTML, CSS, or JavaScript.
 
@@ -89,7 +89,7 @@ For more detailed guides or video tutorials, you can refer to the following reso
 - [Git Github Tutorial 10: What is Pull Request?](https://www.youtube.com/watch?v=e3bjQX9jIBk)
 - [GITHUB PULL REQUEST, Branching, Merging & Team Workflow](https://www.youtube.com/watch?v=oFYyTZwMyAg)
 - [GitLens Tutorial: How to Use GitLens in VS Code](https://www.youtube.com/watch?v=UQPb73Zz9qk)
-# Vanguard-Website-Main
+# Extra Links and tips 
 
 To make commits download the extension github pull requests
 git and gitlens, make an account on github and to run the code open 
@@ -97,6 +97,7 @@ on your folder files or install the extension on VS Code and you have to
 download Vs code first
  
   links that I recommend visiting to download git and to get started with the documentation of bootstrap since is the hole website is base on bootstrap.
+
 https://git-scm.com/downloads
 
 https://getbootstrap.com/
