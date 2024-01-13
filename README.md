@@ -56,7 +56,7 @@ Once you're comfortable with the basics, you can start exploring more advanced t
 ### Accessing the Repository
 
 1. Request access to the repository as a collaborator.
-2. Once you have been granted access, you can clone the repository to your computer where you can start making changes to the repository by Making pull requests[^4^][1].
+2. Once you have been granted access, you can clone the repository to your computer where you can start making changes to the repository by Making pull requests.
 
 ### Making Commits
 
