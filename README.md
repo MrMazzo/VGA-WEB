@@ -45,28 +45,28 @@ Once you're comfortable with the basics, you can start exploring more advanced t
 
 ### Prerequisites
 
-1. Download and install Visual Studio Code[^1^][30].
-2. Install Git from the official website[^2^][29].
+1. Download and install Visual Studio Code.
+2. Install Git from the official website.
 
 ### Setting Up
 
-1. Set up Git in Visual Studio Code[^1^][30].
-2. Make an account on GitHub and set your github with git[^3^][26].
+1. Set up Git in Visual Studio Code.
+2. Make an account on GitHub and set your github with git.
 
 ### Accessing the Repository
 
-1. Request access to the repository as a collaborator[^4^][1].
+1. Request access to the repository as a collaborator.
 2. Once you have been granted access, you can clone the repository to your computer where you can start making changes to the repository by Making pull requests[^4^][1].
 
 ### Making Commits
 
-1. Download the extensions GitHub Pull Requests[^3^][26], Git, and GitLens[^5^][7] in Visual Studio Code.
-2. Use these extensions to make commits[^3^][26] and explore your Git history[^5^][7].
+1. Download the extensions GitHub Pull Requests, Git and GitLens, in Visual Studio Code.
+2. Use these extensions to make commitsand explore your Git history.
 
 ### Running the Code
 
-1. Open your folder files in Visual Studio Code[^1^][30].
-2. Run the code using a extension called live server and you should be good to go[^6^][31].
+1. Open your folder files in Visual Studio Code.
+2. Run the code using a extension called live server and you should be good to go.
 
 ## Additional Resources
 
@@ -96,8 +96,9 @@ git and gitlens, make an account on github and to run the code open
 on your folder files or install the extension on VS Code and you have to 
 download Vs code first
  
- links that I recommend visiting to download git and to get started with the documentation of bootstrap since is the hole website is base on bootstrap.
-
+  links that I recommend visiting to download git and to get started with the documentation of bootstrap since is the hole website is base on bootstrap.
 https://git-scm.com/downloads
+
 https://getbootstrap.com/
+
 https://code.visualstudio.com/Download
