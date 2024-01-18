@@ -46,7 +46,7 @@ Once you're comfortable with the basics, you can start exploring more advanced t
 ### Prerequisites
 
 1. Download and install Visual Studio Code.
-2. Install Git from the official website.
+2. Install Git from the official websiteh.
 
 ### Setting Up
 
