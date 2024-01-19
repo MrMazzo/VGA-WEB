@@ -54,77 +54,143 @@
         <p>The core of Vanguard</p>
     </div>
 
+    <!-- Projects page content -->
     <!-- Create the parent element -->
 <div class="parent">
   <!-- Add the video element -->
   <video class="video" controls>
     <source src="video.mp4" type="video/mp4">
-    <source src="video.ogg" type="video/ogg">
-    <source src="video.webm" type="video/webm">
-    Your browser does not support the video tag.
+     <source src="video.ogg" type="video/ogg">
+     <source src="video.webm" type="video/webm">
+     Your browser does not support the video tag.
   </video>
 </div>
 
-
+   <!-- Line  -->
    <hr class="hr border-2">
-<!-- Create the grid container -->
-<div class="container">
-  <!-- Create the first grid item -->
-  <div class="item">
-    <!-- Add a title -->
-    <h3><a class="title-link" href="ProjectBlizzard.html">Blizzard</a></h3>
-    <!-- Add an image -->
-    <img src="/img/chefSandMazzo.JPG" alt="Image 1">
-    <!-- Add some text -->
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed vero expedita, veniam dolores quam nihil beatae qui excepturi at quis nobis nam, veritatis reprehenderit optio nisi vel, impedit nostrum quia eos vitae labore commodi voluptates quibusdam! Deleniti quia blanditiis officiis est. Dolore incidunt a vitae voluptate distinctio tempora doloremque atque!<</p>
-  </div>
 
-   <div class="item">
-    <!-- Add a title -->
-    <h3><a class="title-link" href="ProjectPoetry.html">Poetry</a></h3>
-    <!-- Add an image -->
-    <img src="/img/chefSandMazzo.JPG" alt="Image 1">
-    <!-- Add some text -->
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed vero expedita, veniam dolores quam nihil beatae qui excepturi at quis nobis nam, veritatis reprehenderit optio nisi vel, impedit nostrum quia eos vitae labore commodi voluptates quibusdam! Deleniti quia blanditiis officiis est. Dolore incidunt a vitae voluptate distinctio tempora doloremque atque!<</p>
-   </div>
+   <!-- Column 1 "The Blizzard"  -->
 
-   <div class="item">
-    <!-- Add a title -->
-    <h3>Title 3</h3>
-    <!-- Add an image -->
-    <img src="/img/chefSandMazzo.JPG" alt="Image 1">
-    <!-- Add some text -->
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed vero expedita, veniam dolores quam nihil beatae qui excepturi at quis nobis nam, veritatis reprehenderit optio nisi vel, impedit nostrum quia eos vitae labore commodi voluptates quibusdam! Deleniti quia blanditiis officiis est. Dolore incidunt a vitae voluptate distinctio tempora doloremque atque!<</p>
-   </div>
-   <div class="item">
-    <!-- Add a title -->
-    <h3>Title 4</h3>
-    <!-- Add an image -->
-    <img src="/img/chefSandMazzo.JPG" alt="Image 1">
-    <!-- Add some text -->
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed vero expedita, veniam dolores quam nihil beatae qui excepturi at quis nobis nam, veritatis reprehenderit optio nisi vel, impedit nostrum quia eos vitae labore commodi voluptates quibusdam! Deleniti quia blanditiis officiis est. Dolore incidunt a vitae voluptate distinctio tempora doloremque atque!<</p>
-   </div>
+   <div class="about">
+    <div class="row">
+    <div class="column">
+       <div class="title" onclick="goToLink('ProjectBlizzard.html')">The Blizzard</div>
+       <script>
+       function goToLink(url) {
+       window.location.href = url;
+       }
+      </script>
+      <!-- Added the figure and figcaption elements to create a subtext for the image -->
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem eu lorem consequat ullamcorper. Morbi vitae leo et nisl sagittis tincidunt. Fusce id massa ut lorem tincidunt tincidunt. Quisque quis augue vitae nisi lacinia aliquet.</div>
+      <figure>
+        <img src="/img/chefSandMazzo.JPG" alt="About Us" class="about-image">
+        <figcaption>Figure 1: This moment was when we visited Blizzard Lighting.</figcaption>
+      </figure>
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem eu lorem consequat ullamcorper. Morbi vitae leo et nisl sagittis tincidunt. Fusce id massa ut lorem tincidunt tincidunt. Quisque quis augue vitae nisi lacinia aliquet.</div>
+    </div>
 
-   <div class="item">
-    <!-- Add a title -->
-    <h3>Title 5</h3>
-    <!-- Add an image -->
-    <img src="/img/chefSandMazzo.JPG" alt="Image 1">
-    <!-- Add some text -->
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed vero expedita, veniam dolores quam nihil beatae qui excepturi at quis nobis nam, veritatis reprehenderit optio nisi vel, impedit nostrum quia eos vitae labore commodi voluptates quibusdam! Deleniti quia blanditiis officiis est. Dolore incidunt a vitae voluptate distinctio tempora doloremque atque!<</p>
-   </div>
+    <!-- Column 2 "Poetry" -->
 
-   <div class="item">
-    <!-- Add a title -->
-    <h3>Title 6</h3>
-    <!-- Add an image -->
-    <img src="/img/chefSandMazzo.JPG" alt="Image 1">
-    <!-- Add some text -->
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed vero expedita, veniam dolores quam nihil beatae qui excepturi at quis nobis nam, veritatis reprehenderit optio nisi vel, impedit nostrum quia eos vitae labore commodi voluptates quibusdam! Deleniti quia blanditiis officiis est. Dolore incidunt a vitae voluptate distinctio tempora doloremque atque!<</p>
-   </div>
-  </div>
- 
+    <div class="column">
+      <div class="title" onclick="goToLink('ProjectPoetry.html')">Poetry</div>
+       <script>
+       function goToLink(url) {
+       window.location.href = url;
+       }
+      </script>
 
+      <!-- Added the figure and figcaption elements to create a subtext for the image -->
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem eu lorem consequat ullamcorper. Morbi vitae leo et nisl sagittis tincidunt. Fusce id massa ut lorem tincidunt tincidunt. Quisque quis augue vitae nisi lacinia aliquet.</div>
+      <figure>
+        <img src="/img/chefSandMazzo.JPG" alt="About Us" class="about-image">
+        <figcaption>Figure 1: This moment was when we visited Blizzard Lighting.</figcaption>
+      </figure>
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem eu lorem consequat ullamcorper. Morbi vitae leo et nisl sagittis tincidunt. Fusce id massa ut lorem tincidunt tincidunt. Quisque quis augue vitae nisi lacinia aliquet.</div>
+    </div>
+
+    <!-- Column 3 "Name of the project" -->
+
+    <div class="column">
+      <div class="title" onclick="goToLink('#')">TITLE</div>
+       <script>
+       function goToLink(url) {
+       window.location.href = url;
+       }
+      </script>
+      <!-- Added the figure and figcaption elements to create a subtext for the image -->
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem eu lorem consequat ullamcorper. Morbi vitae leo et nisl sagittis tincidunt. Fusce id massa ut lorem tincidunt tincidunt. Quisque quis augue vitae nisi lacinia aliquet.</div>
+      <figure>
+        <img src="/img/chefSandMazzo.JPG" alt="About Us" class="about-image">
+        <figcaption>Figure 1: This moment was when we visited Blizzard Lighting.</figcaption>
+      </figure>
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem eu lorem consequat ullamcorper. Morbi vitae leo et nisl sagittis tincidunt. Fusce id massa ut lorem tincidunt tincidunt. Quisque quis augue vitae nisi lacinia aliquet.</div>
+     <!-- End of The columns Add More columns according to the project  -->
+    </div>
+    </div>
+    </div>
+
+     <!-- Line 2 -->
+   <hr class="hr border-2">
+
+   <!-- Column 1 Row 2 "Name of the project"  -->
+
+   <div class="about">
+    <div class="row">
+    <div class="column">
+       <div class="title" onclick="goToLink('#')">TITLE</div>
+       <script>
+       function goToLink(url) {
+       window.location.href = url;
+       }
+      </script>
+      <!-- Added the figure and figcaption elements to create a subtext for the image -->
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem eu lorem consequat ullamcorper. Morbi vitae leo et nisl sagittis tincidunt. Fusce id massa ut lorem tincidunt tincidunt. Quisque quis augue vitae nisi lacinia aliquet.</div>
+      <figure>
+        <img src="/img/chefSandMazzo.JPG" alt="About Us" class="about-image">
+        <figcaption>Figure 1: This moment was when we visited Blizzard Lighting.</figcaption>
+      </figure>
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem eu lorem consequat ullamcorper. Morbi vitae leo et nisl sagittis tincidunt. Fusce id massa ut lorem tincidunt tincidunt. Quisque quis augue vitae nisi lacinia aliquet.</div>
+    </div>
+
+    <!-- Column 2 Row 2 "Name of the project"  -->
+
+    <div class="column">
+      <div class="title" onclick="goToLink('#')">TITLE</div>
+       <script>
+       function goToLink(url) {
+       window.location.href = url;
+       }
+      </script>
+
+      <!-- Added the figure and figcaption elements to create a subtext for the image -->
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem eu lorem consequat ullamcorper. Morbi vitae leo et nisl sagittis tincidunt. Fusce id massa ut lorem tincidunt tincidunt. Quisque quis augue vitae nisi lacinia aliquet.</div>
+      <figure>
+        <img src="/img/chefSandMazzo.JPG" alt="About Us" class="about-image">
+        <figcaption>Figure 1: This moment was when we visited Blizzard Lighting.</figcaption>
+      </figure>
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem eu lorem consequat ullamcorper. Morbi vitae leo et nisl sagittis tincidunt. Fusce id massa ut lorem tincidunt tincidunt. Quisque quis augue vitae nisi lacinia aliquet.</div>
+    </div>
+
+    <!-- Column 3 Row 2 "Name of the project"  -->
+
+    <div class="column">
+      <div class="title" onclick="goToLink('#')">TITLE</div>
+       <script>
+       function goToLink(url) {
+       window.location.href = url;
+       }
+      </script>
+      <!-- Added the figure and figcaption elements to create a subtext for the image -->
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem eu lorem consequat ullamcorper. Morbi vitae leo et nisl sagittis tincidunt. Fusce id massa ut lorem tincidunt tincidunt. Quisque quis augue vitae nisi lacinia aliquet.</div>
+      <figure>
+        <img src="/img/chefSandMazzo.JPG" alt="About Us" class="about-image">
+        <figcaption>Figure 1: This moment was when we visited Blizzard Lighting.</figcaption>
+      </figure>
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem eu lorem consequat ullamcorper. Morbi vitae leo et nisl sagittis tincidunt. Fusce id massa ut lorem tincidunt tincidunt. Quisque quis augue vitae nisi lacinia aliquet.</div>
+     <!-- End of The columns Add More columns according to the project  -->
+    </div>
+    </div>
+    </div>
 
     <!-- Footer -->
       <div class="footer-basic">

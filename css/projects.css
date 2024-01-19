@@ -1,57 +1,62 @@
-   .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Divide the container into three equal columns */
-    grid-gap: 10px; /* Add some space between the columns */
-    margin: 100px; /* Add some margin around the container */
-  }
-
-  .item {
-  /* Center everything vertically */
-  background-color: #bebebe; /* Add some background color to the items */
-  padding: 20px; /* Add some padding to the items */
-  text-align: center; /* Center the text inside the items */
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px;
-  /* Added the border and border-radius properties */
-  border: 1px solid black;
-  border-radius: 0px;
-}
-
-
-  /* Define the image inside the items */
-  .item img {
-    width: 80%; /* Make the image fill the item width */
-    height: auto; /* Keep the image aspect ratio */
-    object-fit: cover; /* Crop the image to fit the item */
-  }
-
-  /* Define the title inside the items */
-  .item h3 {
-    font-size: 32px; /* Set the font size of the title */
-    margin-bottom: 10px; /* Add some space below the title */
-  }
-
-  /* Define the text inside the items */
-  .item p {
-    font-size: 17px; /* Set the font size of the text */
-  }
-
-  @media screen and (max-width: 768px) {
-    .container {
-      grid-template-columns: 1fr; /* Make the columns stack on top of each other on smaller screens */
-      margin: 0.5%; 
+  * {
+      box-sizing: border-box;
     }
-  }
 
-  /* Define the parent element */
-.parent {
+    /* Added the .about class name to the row and column selectors */
+    .about .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+      margin-bottom: 20px;
+    }
+
+    .about .column {
+      flex: 33.33%;
+      padding: 10px;
+      /* Added the border and border-radius properties */
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+
+    .title {
+     font-size: 34px;
+     font-weight: bold;
+     text-align: center;
+    }
+
+    .title:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+   }
+
+
+    .about-image {
+      display: block;
+      width: 80%;
+      height: auto;
+      object-fit: cover;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Added the text-align property to the text and figcaption selectors */
+    .text {
+      font-size: 17px;
+      text-align: center;
+    }
+
+    figcaption {
+      font-size: 12px;
+      color: gray;
+      text-align: center;
+    }
+    
+  .parent {
   text-align: center; /* Center the child elements */
 }
 
-/* Define the video element */
-.video {
+  .video {
   width: 55%; /* Set the width of the video */
   height: auto; /* Keep the aspect ratio of the video */
 }
