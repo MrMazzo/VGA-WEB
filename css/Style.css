@@ -320,3 +320,16 @@ border-radius: 0px;
 .border-left {
   border-left: 1px solid black;
 }
+
+.title {
+      color: black;
+     font-size: 34px;
+     font-weight: bold;
+     text-align: center;
+    }
+
+    .title:hover {
+    color:#5F6062;
+    font-weight: bold;
+    text-decoration: underline;
+   }
