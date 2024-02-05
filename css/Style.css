@@ -98,6 +98,11 @@
 }
 
 /*--Four Pics--*/
+
+.prgvid
+{
+  position: relative;
+}
 .programgif
 {
     text-align: center;
