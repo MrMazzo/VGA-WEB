@@ -19,7 +19,7 @@
     }
 
     .title {
-      color:  rgb(27, 13, 155);
+      color:  rgb(0, 0, 0);
      font-size: 34px;
      font-weight: bold;
      text-align: center;
@@ -45,19 +45,9 @@
     .text {
       font-size: 17px;
       text-align: center;
-    }
-
-    figcaption {
-      font-size: 12px;
-      color: gray;
-      text-align: center;
+      margin: 15px;
     }
     
   .parent {
   text-align: center; /* Center the child elements */
-}
-
-  .video {
-  width: 55%; /* Set the width of the video */
-  height: auto; /* Keep the aspect ratio of the video */
-}
+  }

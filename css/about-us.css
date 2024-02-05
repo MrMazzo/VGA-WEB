@@ -1,16 +1,26 @@
-    /* Added the .about class name to the row and column selectors */
-
-    .programinstructors{
-    padding-top: 50px;
-    text-align: center;
-    padding: 30px;
-    margin: -30px;
-    margin-bottom: 0px;
+  * {
+      box-sizing: border-box;
     }
-  
+
+    /* Added the .about class name to the row and column selectors */
+    .about .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+      margin-bottom: 20px;
+    }
+
+    .about .column {
+      flex: 33.33%;
+      padding: 10px;
+      /* Added the border and border-radius properties */
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+
     .title {
       color:  rgb(0, 0, 0);
-     font-size: auto;
+     font-size: 34px;
      font-weight: bold;
      text-align: center;
     }
@@ -24,7 +34,7 @@
 
     .about-image {
       display: block;
-      width: 100%;
+      width: 80%;
       height: auto;
       object-fit: cover;
       margin-left: auto;
@@ -33,12 +43,11 @@
 
     /* Added the text-align property to the text and figcaption selectors */
     .text {
-      font-size: 20px;
+      font-size: 17px;
       text-align: center;
+      margin: 15px;
     }
-
-    figcaption {
-      font-size: 12px;
-      color: gray;
-      text-align: center;
-    }
+    
+  .parent {
+  text-align: center; /* Center the child elements */
+  }
