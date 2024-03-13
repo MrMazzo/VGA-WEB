@@ -11,6 +11,7 @@
  <link rel="stylesheet" href="css/Style.css">
  <script src="js/initialize Open live server.js"></script>
  <link rel="icon" type="image/png" href="/img/Vlogo.png" />
+ <link rel="stylesheet" href="Library/W3S.css">
 </head>
 <body style="background-color: #bebebe;">
   
@@ -51,12 +52,16 @@
         <h1>BADLab</h1>
         <p>A super tiny description of BADLab</p>
     </div>
+    
+  <div class="w3-content w3-section" style="max-width:500px">
 
-    <div class="programgif">
-      <!--<div class="container c2">-->
-        <a class="prg-pic2"><img src="img/gifmath.gif"></a>
-      <!--</div>--> 
-  </div>
+  <img class="mySlides w3-animate-fading" src="img/VGA BL FRESHMEN.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="img/VGA BL SOPHOMORES.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="img/VGA BL JUNIORS.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="img/VGA SENIORS AM CAPSTONE.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="img/VGA SENIORS PM CAPSTONE (1).jpg" style="width:100%">
+
+</div>
 
   <hr class="hr border-2">
 
@@ -68,20 +73,33 @@
   <div class="contaier">
     <div class="row justify-content-center programinstructors">
       <div class="col-md-3">
-        <h1>Intro</h1>
-        <p>The blending of English and Social Studies courses. aspernatur esse possimus molestias modi saepe! Nam amet, dolorum non praesentium ab iste dolores debitis veniam, ve</p>
+        <div class="title" onclick="goToLink('#')"><h1>Desing Rotation</h1></div>
+       <script>
+       function goToLink(url) {
+       window.location.href = url;
+       }
+      </script>
+        <p>Design Rotation is a real-world approach to solving problems in our community using Human Centered Design engineering. Innovators in this class will have an opportunity to create change in their school, district, city, and beyond. The class is divided into 4 main pillars Project Good - How might we make Broken Arrow a better place to live, work, or go to school? Pay it forward - How might we improve the Broken Arrow public schools experience for K-9th grade? Entrepreneurship- How might we use our passions to create entrepreneurial opportunities in our community? Partnership Cafe- How might we create partnerships with local businesses and nonprofit organizations? Innovators utilize the steps of Human Centered Design to get inspired, create ideations, test implementations, and iterate on their solutions. Innovators are evaluated on professionalism, collaboration, communication, and management skills.</p>
       </div>
+
       <div class="col-md-3 border-right border-left">
-        <h1>Design Rotation 1</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum at quae itaque acc
-          usamus nesciunt nobis facere? Delectus earum debitis minima eos. Incidunt tempore veniam, quisquam magnam ea debitis qui in
-           aspernatur esse possimus molestias modi saepe! Nam amet, dolorum non praesentium ab iste dolores debitis veniam, vel consectetur porro commodi!</p>
+        <div class="title" onclick="goToLink('#')"><h1>Immersion</h1></div>
+       <script>
+       function goToLink(url) {
+       window.location.href = url;
+       }
+      </script>
+        <p>Immersion is a unique approach to learning that blends traditional lecture-based teaching with immersive, hands-on experiences both in the classroom and outdoors. By combining interactive activities with traditional teaching methods, students are actively engaged in uncovering the narrative of history. Immersion teaches all Oklahoma ELA and Social Studies standards, including English, Oklahoma History, Government, Geography, US History, Economics, Public Speaking and more. This is achieved through various projects, simulations, and exploring texts in their respective historical settings. The program employs a variety of teaching methods to bring history to life, such as storytelling sessions, role-playing activities, and project-based learning tasks. Student performance is assessed through a range of methods designed to measure their understanding of critical thinking skills and communication, including research projects, oral presentations, class discussions, and overall providing a dynamic and immersing learning experience.</p>
       </div>
+
       <div class="col-md-3">
-        <h1>Design Rotation 2</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum at quae itaque acc
-          usamus nesciunt nobis facere? Delectus earum debitis minima eos. Incidunt tempore veniam, quisquam magnam ea debitis qui in
-           aspernatur esse possimus molestias modi saepe! Nam amet, dolorum non praesentium ab iste dolores debitis veniam, vel consectetur porro commodi!</p>
+        <div class="title" onclick="goToLink('#')"><h1>Fusion</h1></div>
+       <script>
+       function goToLink(url) {
+       window.location.href = url;
+       }
+      </script>
+        <p>Fusion offers a cutting-edge take on high school math, encompassing Algebra 1, Geometry, and Algebra 2. Through a hands-on approach, students not only meet Oklahoma math standards but also delve into practical applications within various career fields. They engage in real-world projects, showcasing their comprehension of the standards in meaningful ways. Looking ahead to next year, Health and Human Centered Design introduces an exciting exploration into enhancing overall well-being. This innovative course delves into holistic health and happiness, empowering students to utilize human-centered design principles to enhance their personal health and wellness.</p>
       </div>
     </div>
   </div>
@@ -124,8 +142,9 @@
 
     </div>
   </div>
-<!-- Put emails of teachers -->
 
+  <!-- Fade effect -->
+   <script src="js/fade.js"></script>
     <!-- Footer -->
       <div class="footer-basic">
     <footer>
