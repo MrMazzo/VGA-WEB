@@ -13,6 +13,18 @@
  <link rel="stylesheet" href="css/about-us.css">
  <link rel="icon" type="image/png" href="/img/Vlogo.png" />
 </head>
+<style>
+    .reveal{
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+    </style>
 <body style="background-color: #bebebe;">
   
     <!-- Navigation -->
@@ -76,7 +88,7 @@
       </div>
 
       <div class="col-md-3 border-right border-left">
-        <div class="title" onclick="goToLink('/Sub_Pages/OutwardBound.html')">Outward Bound</div>
+        <div class="title" onclick="goToLink('/Sub_Pages/OutwardBound.html')">Outdoor Education</div>
        <script>
        function goToLink(url) {
        window.location.href = url;
@@ -103,9 +115,10 @@
       </div>
   </div>
 
-   <!-- end of the first row and start of the second row -->
+  <!-- end of the first row and start of the second row -->
 
    <!--Second Colum of the second row-->
+<div class="container reveal"> 
   <hr class="hr border-2">
 
   <div class="content2">
@@ -153,31 +166,35 @@
       </figure>
       </div>
   </div>
+</div>
 
    <hr class="hr border-2">
   <!--Staff members-->
   <div class="content2">
     <h2>Directory</h2>
   </div>
-
+<div class="container reveal"> 
   <div class="contaier instructorcontainer">
     <div class="row justify-content-center programinstructors">
       <div class="col-md-3">
-        <img class="" src="img/xpojuniorsteachingreshman.jpg" alt="" id="instructorpic">
+        <img class="" src="img/Replogle.jpg" alt="" id="instructorpic">
         <h1>Stacey Replogle</h1>
         <p>Principal</p>
       </div>
       <div class="col-md-3">
-        <img class="" src="img/xpojuniorsteachingreshman.jpg" alt="" id="instructorpic">
+        <img class="" src="img/Assitant of principal.jpg" alt="" id="instructorpic">
         <h1>Andrea Sagely</h1>
         <p>Assistant Principal</p>
       </div>
       <div class="col-md-3">
-        <img class="" src="img/xpojuniorsteachingreshman.jpg" alt="" id="instructorpic">
+        <img class="" src="img/SummerVanhoozer.jpg" alt="" id="instructorpic">
         <h1>Summer VanHoozer</h1>
         <p>Counselor</p>
       </div>
     </div>
+</div>
+
+<div class="container reveal"> 
     <div class="row justify-content-center programinstructors">
       <div class="col-md-3">
         <img class="" src="img/xpojuniorsteachingreshman.jpg" alt="" id="instructorpic">
@@ -195,6 +212,9 @@
         <p>Vocational Education</p>
       </div>
     </div>
+</div> 
+
+<div class="container reveal"> 
     <div class="row justify-content-center programinstructors">
       <div class="col-md-3">
         <img class="" src="img/xpojuniorsteachingreshman.jpg" alt="" id="instructorpic">
@@ -212,6 +232,9 @@
         <p>Capstone and Design Rotation</p>
       </div>
     </div>
+</div>
+
+<div class="container reveal"> 
     <div class="row justify-content-center programinstructors">
       <div class="col-md-3">
         <img class="" src="img/xpojuniorsteachingreshman.jpg" alt="" id="instructorpic">
@@ -229,6 +252,9 @@
         <p>BADLab Math</p>
       </div>
     </div>
+</div>
+
+<div class="container reveal"> 
     <div class="row justify-content-center programinstructors">
       <div class="col-md-3">
         <img class="" src="img/xpojuniorsteachingreshman.jpg" alt="" id="instructorpic">
@@ -246,6 +272,9 @@
         <p>XPO Math</p>
       </div>
     </div>
+</div> 
+
+<div class="container reveal"> 
     <div class="row justify-content-center programinstructors">
       <div class="col-md-3">
         <img class="" src="img/xpojuniorsteachingreshman.jpg" alt="" id="instructorpic">
@@ -264,7 +293,32 @@
       </div>
     </div>
   </div>
+</div>
 
+  <!-- Image scrolling -->
+        <script>
+
+        function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+
+      window.addEventListener("scroll", reveal);
+
+        </script> 
+  </div>
+</div>
     <!-- Footer -->
      <div class="footer-basic">
     <footer>

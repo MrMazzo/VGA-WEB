@@ -22,6 +22,20 @@
    }
 
   </style>
+
+  <!-- This CSS is in charge of the image scroll-->
+  <style>
+    .reveal{
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+    </style>
   <body style="background-color:#bebebe;">
 
 <!--Navigation-->
@@ -82,7 +96,7 @@
   </div>
 
   <!-- Course Descriptions-->
-
+<div class="container reveal"> 
   <div class="contaier">
     <div class="row justify-content-center programinstructors">
       <div class="col-md-3">
@@ -102,9 +116,8 @@
        window.location.href = url;
        }
       </script>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum at quae itaque acc
-          usamus nesciunt nobis facere? Delectus earum debitis minima eos. Incidunt tempore veniam, quisquam magnam ea debitis qui in
-           aspernatur esse possimus molestias modi saepe! Nam amet, dolorum non praesentium ab iste dolores debitis veniam, vel consectetur porro commodi!</p>
+        <p> A fusion of Math and Science subjects working alongside CONNECT courses to achieve integration between subjects through projects intended to engage and support the Broken Arrow community. In this course, student engagement is encouraged through the application of the standards, allowing students to discover and experience their usefulness. Students' knowledge and growth will be assessed using traditional methods as well as throughout the Project Based Learning process. 
+       </p>
       </div>
 
       <div class="col-md-3">
@@ -118,7 +131,9 @@
       </div>
     </div>
   </div>
+</div>
 
+<div class="container reveal"> 
   <hr class="hr border-2">
 
   <div class="content2">
@@ -158,6 +173,29 @@
       </div>
     </div>
   </div>
+</div>
+  <!-- Image scrolling -->
+        <script>
+
+        function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+
+      window.addEventListener("scroll", reveal);
+
+        </script> 
 
     <!-- Fade effect -->
 <script src="js/fade.js"></script>

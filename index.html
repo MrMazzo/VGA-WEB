@@ -13,6 +13,18 @@
  <link rel="icon" type="image/png" href="/img/Vlogo.png" />
  </head>
  <body>
+    <style>
+      .reveal{
+      transform: translateY(150px);
+      opacity: 0;
+      transition: 1s all ease;
+    }
+
+    .reveal.active{
+      transform: translateY(0);
+      opacity: 1;
+    }
+      </style>
   <body style="background-color:#bebebe;">
 <!--Navigation-->
     <section id="nav-bar">
@@ -55,10 +67,10 @@
 
   <div class="fourpics">
       <!--<div class="container c2">-->
-        <a class="prg-pic2"><img src="img/chefSandMazzo.JPG"></a>
-        <a class="prg-pic2"><img src="img/connect21-22.JPG"></a>
-        <a class="prg-pic2"><img src="img/kidsmorningmovie.JPG"></a>
-        <a class="prg-pic2"><img src="img/kidsworking.JPG"></a>
+        <a class="prg-pic2"><img src="img/IMG_6793.JPG"></a>
+        <a class="prg-pic2"><img src="img/IMG_7927.JPG"></a>
+        <a class="prg-pic2"><img src="img/"></a>
+        <a class="prg-pic2"><img src="img/"></a>
       <!--</div>--> 
   </div>
 
@@ -66,7 +78,8 @@
     <h2>We are...</h2>
   </div>
 
-  <!--Vanguard2--> 
+  <!--Vanguard-->
+<div class="container reveal"> 
   <div class="contianer text-center programinfo">
       <div class="row justify-content-center align-items-center">
         <div class="col-md-6">
@@ -83,18 +96,18 @@
               build shop, and a vocational agriculture
               center. The Vanguard Academy is ideal for
               students who crave an active, project-based
-              
               learning environment.</p>
         </div>
       </div>
   </div>
-
+</div>
+<div class="container reveal">
   <hr class="hr border-3">
 
   <div class="contianer text-center programinfo">
     <div class="row justify-content-center align-items-center">
       <div class="col-md-5">
-          <div class="title" onclick="goToLink('#')"><h2>XPO</h2></div>
+          <div class="title" onclick="goToLink('XPO.html')"><h2>XPO</h2></div>
           <script>
            function goToLink(url) {
            window.location.href = url;
@@ -115,20 +128,22 @@
             and or community problems.</p>
       </div>
       <div class="col-md-4">
-        <img class="img-fluid rounded-start" src="img/xpojuniorsteachingreshman.jpg" alt="" id="programpic">
+        <img class="img-fluid rounded-start" src="img/IMG_6546 (1).JPG" alt="" id="programpic">
       </div>
     </div>
   </div>
+</div>
 
+<div class="container reveal">
   <hr class="hr border-2">
 
   <div class="contianer text-center programinfo">
     <div class="row justify-content-center align-items-center">
       <div class="col-md-4">
-        <img class="img-fluid rounded-start" src="img/xpojuniorsteachingreshman.jpg" alt="" id="programpic">
+        <img class="img-fluid rounded-start" src="img/IMG_2852.jpg" alt="" id="programpic">
       </div>
       <div class="col-md-5">
-           <div class="title" onclick="goToLink('#')"><h2>BADLab</h2></div>
+           <div class="title" onclick="goToLink('BadLab.html')"><h2>BADLab</h2></div>
           <script>
            function goToLink(url) {
            window.location.href = url;
@@ -148,6 +163,29 @@
       </div>
     </div>
 </div>
+      <!-- Image scrolling -->
+        <script>
+
+        function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+
+      window.addEventListener("scroll", reveal);
+
+        </script> 
+</div>
 <!--Footer-->
   <div class="footer-basic">
     <footer>
@@ -164,6 +202,6 @@
         <p class="copyright">Vanguard Academy</p>
     </footer>
   </div>
+</div>
 </body>
-
 </html>

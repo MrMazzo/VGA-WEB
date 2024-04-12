@@ -12,9 +12,22 @@
  <script src="js/initialize Open live server.js"></script>
  <link rel="icon" type="image/png" href="/img/Vlogo.png" />
  <link rel="stylesheet" href="Library/W3S.css">
+ <style>
+    .reveal{
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+    </style>
+
 </head>
 <body style="background-color: #bebebe;">
-  
+ 
     <!-- Navigation -->
         <section id="nav-bar">
         <nav class="navbar navbar-expand-lg">
@@ -64,6 +77,7 @@
 </div>
 
   <hr class="hr border-2">
+<div class="container reveal"> 
 
   <div class="content2">
     <h2>Design Rotation</h2>
@@ -103,6 +117,9 @@
       </div>
     </div>
   </div>
+</div>
+
+<div class="container reveal"> 
 
   <hr class="hr border-2">
 
@@ -142,7 +159,31 @@
 
     </div>
   </div>
+</div>
 
+<!-- Image scrolling -->
+        <script>
+
+        function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+
+      window.addEventListener("scroll", reveal);
+
+        </script> 
+        
   <!-- Fade effect -->
    <script src="js/fade.js"></script>
     <!-- Footer -->
