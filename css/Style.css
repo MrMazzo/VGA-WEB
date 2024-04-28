@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 /*---------Navigation-------*/
 #nav-bar
 {
@@ -47,22 +48,22 @@
 {
     width: 100%;
     position: relative;
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: center;
     color: #27251F;
 }
 .content h1
 {
-    font-size: 100px;
+    font-size: 15vw; /* 15% of the viewport width */
     margin-top: 15px;
 }
 .content h2
 {
-    font-size: 100px;
+    font-size: 20vw;
 }
 .content p
 {
-    font-size: 3vw;
+    font-size: 7vw;
     margin: 20px auto;
     font-weight: 100;
     line-height: 40px;
@@ -94,7 +95,7 @@
 .fourpics img
 {
     height: auto;
-    max-width: 20%;
+    max-width: 40%;
 }
 
 /*--Four Pics--*/
@@ -121,12 +122,12 @@
 /**Footer**/
 
 .footer-basic {
-    padding:40px 0;
-    background-color: #27251F;
-    color:#5F6062;
+    padding:30px 0;
+    background-color: #cbb677;
+    color:#27251F;
     position: relative;
     top: 50%;
-    margin-top: 200px;
+    margin-top: 70px;
   }
   
   .footer-basic ul {
@@ -186,7 +187,7 @@
    .custom-column {
             background-color: #bebebe;
             padding: 20px;
-            border: 1px solid #000;
+            border: 1px solid black;
   }
 
  /*--css for the pics in the boxes of the columns--*/
@@ -212,7 +213,7 @@
 }
   #programpic
   {
-    width: 80%;
+    width: 100%;
     height: auto;
   }
   .programinfo h2
@@ -236,7 +237,7 @@
 }
   #programpic
   {
-    width: 80%;
+    width: 100%;
     height: auto;
   }
   .programpageinfo h2
@@ -259,7 +260,7 @@
 {
   margin-top: 100px;
   border: 0px black;
-  border: 0px solid #000000;
+  border: 0px solid black;
 border-radius: 0px;
 }
 #poembutton{
@@ -327,7 +328,7 @@ border-radius: 0px;
 }
 
 .title {
-      color: black;
+      color: #27251F;
      font-size: 34px;
      font-weight: bold;
      text-align: center;
