@@ -19,14 +19,14 @@
     }
 
     .title {
-      color:  rgb(0, 0, 0);
+     color:  #27251F;
      font-size: 34px;
      font-weight: bold;
      text-align: center;
     }
 
     .title:hover {
-    color: purple;
+    color: #5F6062;
     font-weight: bold;
     text-decoration: underline;
    }

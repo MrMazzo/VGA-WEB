@@ -1,12 +1,12 @@
 # Vanguard-Website-Main
-A place where innovation is made and students get to create amazing projects this websites is one of those amazing and magnificent projects it took more than a year to create this website my name is samuhel and I created this extensive readme.md in order to help or guide you in your way to learn how to code and how to make changes to the website I wish you good luck in your journey 01/13/2024 :)
+A place where innovation is made and students get to create amazing projects this website is one of those amazing and magnificent projects it took more than a year to create this website my name is samuhel and I created this extensive readme.md to help or guide you in your way to learn how to code and how to make changes to the website I wish you good luck in your journey 01/13/2024 :)
 ## Description
 
 Welcome to the Vanguard repository just like we always Vanguard is a place where innovation is made. This website was created through the collaborative efforts of both teachers and students. We extend our heartfelt thanks to the administration and the main developers, Evan Mazzo and Samuhel Velez.
 
 ## Getting Started
 
-This section provides a step-by-step guide for someone who has never coded in HTML, CSS, or JavaScript but knows a little about coding and introduces anybody is working in the Vanguard website any changes that are made in the README.md file have to be notified to Mr.Mazzo .
+This section provides a step-by-step guide for someone who has never coded in HTML, CSS, or JavaScript but knows a little about coding and introduces anybody is working in the Vanguard website any changes that are made in the README.md file have to be notified to Mr.Mazzo.
 
 ### Learning HTML, CSS, and JavaScript
 
@@ -21,7 +21,7 @@ Before you start coding, it's important to understand what HTML, CSS, and JavaSc
 You'll need some tools to start coding:
 
 - **Text Editor**: This is where you'll write your code. There are many free text editors available for download. Some popular ones include Sublime Text, Atom, and Visual Studio Code.
-- **Web Browser**: You'll use this to view your web page. Google Chrome, Mozilla Firefox, and Microsoft Edge are common choices the one that we used to make the website was chrome and Edge
+- **Web Browser**: You'll use this to view your web page. Google Chrome, Mozilla Firefox, and Microsoft Edge are common choices the ones that we used to make the website were chrome and Edge
 
 ### Step 3: Learn HTML
 
@@ -46,12 +46,12 @@ Once you're comfortable with the basics, you can start exploring more advanced t
 ### Prerequisites
 
 1. Download and install Visual Studio Code.
-2. Install Git from the official websiteh.
+2. Install Git from the official website.
 
 ### Setting Up
 
 1. Set up Git in Visual Studio Code.
-2. Make an account on GitHub and set your github with git.
+2. Make an account on GitHub and set your GitHub with git.
 
 ### Accessing the Repository
 
@@ -60,8 +60,8 @@ Once you're comfortable with the basics, you can start exploring more advanced t
 
 ### Making Commits
 
-1. Download the extensions GitHub Pull Requests, Git and GitLens, in Visual Studio Code.
-2. Use these extensions to make commitsand explore your Git history.
+1. Download the extensions GitHub Pull Requests, Git, and GitLens, in Visual Studio Code.
+2. Use these extensions to make commits and explore your Git history.
 
 ### Running the Code
 
@@ -91,12 +91,12 @@ For more detailed guides or video tutorials, you can refer to the following reso
 - [GitLens Tutorial: How to Use GitLens in VS Code](https://www.youtube.com/watch?v=UQPb73Zz9qk)
 # Extra Links and tips 
 
-To make commits download the extension github pull requests
-git and gitlens, make an account on github and to run the code open 
+To make commits download the extension Github pull requests
+git and gitlens, make an account on GitHub, and run the code open 
 on your folder files or install the extension on VS Code and you have to 
 download Vs code first
  
-  links that I recommend visiting to download git and to get started with the documentation of bootstrap since is the hole website is base on bootstrap.
+  links that I recommend visiting to download git and to get started with the documentation of bootstrap since the hole website is based on bootstrap.
 
 https://git-scm.com/downloads
 
