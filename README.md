@@ -1,5 +1,5 @@
 # Vanguard-Website-Main
-A place where innovation is made and students get to create amazing projects this website is one of those amazing and magnificent projects it took more than a year to create this website my name is samuhel and I created this extensive readme.md to help or guide you in your way to learn how to code and how to make changes to the website I wish you good luck in your journey 01/13/2024 :)
+A place where innovation is made and students get to create amazing projects this website is one of those amazing and magnificent projects it took more than a year to create this website my name is Samuhel and I created this extensive readme.md to help or guide you in your way to learn how to code and how to make changes to the website I wish you good luck in your journey 01/13/2024 :)
 ## Description
 
 Welcome to the Vanguard repository just like we always Vanguard is a place where innovation is made. This website was created through the collaborative efforts of both teachers and students. We extend our heartfelt thanks to the administration and the main developers, Evan Mazzo and Samuhel Velez.
